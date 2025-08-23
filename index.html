@@ -20,7 +20,13 @@
         data.forEach(cmd => {
           const card = document.createElement('div');
           card.className = 'card';
-
+      // Se c'è un'immagine, aggiungila
+          if (cmd.img) {
+            const img = document.createElement('img');
+            img.src = cmd.img;
+            img.className = 'icon'; // se vuoi usare lo stile CSS che abbiamo fatto
+            card.appendChild(img);
+          }
           const title = document.createElement('h2');
           title.textContent = cmd.nome;
           card.appendChild(title);
