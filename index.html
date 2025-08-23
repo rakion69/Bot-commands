@@ -65,7 +65,11 @@
 
           const content = document.createElement('div');
           content.className = 'card-content';
-          content.textContent = cmd.descrizione;
+
+          // descrizione
+          const desc = document.createElement('p');
+          desc.textContent = cmd.descrizione;
+          content.appendChild(desc);
 
           // se esistono personaggi, crea un elenco
           if (cmd.personaggi && cmd.personaggi.length > 0) {
