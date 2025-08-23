@@ -1,0 +1,49 @@
+[
+
+        {"nome": "/hazbinQuote", 
+        "descrizione": "Mostra una citazione casuale dei personaggi di Hazbin Hotel.",
+        "personaggi": ["Charlie", "Alastor", "Angel Dust", "Vaggie", "Adam", "Egg boiz", "Husk", "Lucifer", "Niffty", "Sir pentious", "valentino","Vox"]
+        },
+        {"nome": "/hazbinGif", 
+        "descrizione": "Mostra una GIF di Hazbin Hotel",
+        "personaggi": ["Casuale"]
+        },
+        {"nome": "/hazbinPh", 
+        "descrizione": "Mostra una foto di Hazbin Hotel",
+        "personaggi": ["Casuale"]
+        },
+        {"nome": "/paperella", 
+        "descrizione": "Mostra un'immagine di una paperella",
+        "personaggi": ["Paperella Casuale"]
+        },
+        {"nome": "/hazbinART", 
+        "descrizione": "Immagine casuale da DeviantArt",
+        "personaggi": ["Casuale"]
+        },
+        {"nome": "/hazbinQuiz", 
+        "descrizione": "Mostra un quiz su Hazbin Hotel",
+        "personaggi": ["Casuale"]
+        },
+        {"nome": "/wikia + nome", 
+        "descrizione": "Mostra le informazioni di un personaggio",
+        "personaggi": ["Adamo", "Alastor", "Angel Dust", "Charlie", "Husk", "Lilith","Lucifer","Vaggie" ]
+        },
+        {"nome": "/gemellaggio", 
+        "descrizione": "Gemellaggio con il gruppo Telegram dedicato alla serie Arcane",
+        "personaggi": ["Gemellaggio Arcane"]
+        },
+        {"nome": "/hazbinTarot", 
+        "descrizione": "Fatti predire il futuro dai nostri tarocchi di Hazbin Hotel",
+        "personaggi": ["Carte dei Tarocchi tematiche"]
+        },
+        {"nome": "/ele", 
+        "descrizione": "Immagine casuale di Ele",
+        "personaggi": ["Ele"]
+        },
+        {"nome": "Usa una delle nostre Gif animate", 
+        "descrizione": "Gif tematiche di Hazbin Hotel",
+        "personaggi": ["/Applauso", "/Awhatnow", "/Badboys","/Blah","/bowchicawowwow","/Celhoduro","/Cry",
+        "/Depressione","/Drama","/Fuckyou","/Good","/Kinky","/Medio","/No","/Ohyeah","/Patto","/Slurp","/Son","/Squat",
+        "/Susan","/Tiscopoilculo","/Triggered","/Whatdidyousay","/Yaypain"]
+        }
+]
