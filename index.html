@@ -67,6 +67,21 @@
           content.className = 'card-content';
           content.textContent = cmd.descrizione;
 
+          // se esistono personaggi, crea un elenco
+          if (cmd.personaggi && cmd.personaggi.length > 0) {
+            const charTitle = document.createElement('strong');
+            charTitle.textContent = 'Personaggi:';
+            content.appendChild(charTitle);
+
+            const list = document.createElement('ul');
+            cmd.personaggi.forEach(p => {
+              const li = document.createElement('li');
+              li.textContent = p;
+              list.appendChild(li);
+            });
+            content.appendChild(list);
+          }
+
           card.appendChild(title);
           card.appendChild(content);
           container.appendChild(card);
