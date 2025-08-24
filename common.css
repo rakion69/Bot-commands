@@ -21,6 +21,9 @@ h1 {
 
 /* Card */
 .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 16px;
   padding: 20px;
   width: 100%;
@@ -50,9 +53,7 @@ h1 {
 
 /* Icona */
 .card img.icon {
-  opacity: 1 !important;
-  visibility: visible !important;
-  position: relative;
+  /*position: absolute;*/
   top: 12px;
   right: 12px;
   width: 32px;
@@ -61,4 +62,5 @@ h1 {
   object-fit: cover;
   border: 2px solid rgba(255,255,255,0.5);
 }
+
 
