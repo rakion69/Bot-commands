@@ -44,7 +44,7 @@
     fetch('comandi.json')
       .then(response => response.json())
       .then(data => {
-        const container = document.getElementById('container');
+        const container = document.querySelector('.cards-container');
         data.forEach(cmd => {
           const card = document.createElement('div');
           card.className = 'card';
