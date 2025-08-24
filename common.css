@@ -50,7 +50,8 @@ h1 {
 
 /* Icona */
 .card img.icon {
-  justify-content: space-between;
+  opacity: 1 !important;
+  visibility: visible !important;
   position: relative;
   top: 12px;
   right: 12px;
@@ -60,3 +61,4 @@ h1 {
   object-fit: cover;
   border: 2px solid rgba(255,255,255,0.5);
 }
+
