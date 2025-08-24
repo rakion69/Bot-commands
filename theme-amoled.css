@@ -1,0 +1,43 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+/* Card */
+.card {
+  background-color: #0a0a0a;
+  box-shadow: 0 4px 12px rgba(255,255,255,0.05);
+  color: #ffffff;
+}
+
+/* Titolo */
+.card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Descrizione */
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #cccccc;
+}
+
+/* Lista */
+.card ul li {
+  font-size: 13px;
+  color: #bbbbbb;
+}
+
+
+/* Icona */
+.card img.icon {
+
+  border: 2px solid rgba(255,255,255,0.3);
+}
