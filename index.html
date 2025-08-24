@@ -3,15 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="common.css">
+  <link id="themeStylesheet" rel="stylesheet" href="style.css">
   <link rel="icon" href="img/icon.ico" type="image/x-icon">
   <title>Comandi Bot</title>
-
 </head>
 <body>
-  <h1>Comandi del Bot</h1>
-  <div id="container"></div>
+    <header>
+      <select id="themeSelector">
+      <option value="style.css">Default 🌈</option>
+      <option value="theme-dark.css">Dark Mode 🌙</option>
+      <option value="theme-amoled.css">AMOLED Dark 🖤</option>
 
+      </select>
+    </header>
+
+  <h1>Comandi del Bot</h1>
+
+  <input type="file" id="fileInput" accept=".json">
+  <div id="container" class="cards-container"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const selector = document.getElementById('themeSelector');
+      const stylesheet = document.getElementById('themeStylesheet');
+
+      const savedTheme = localStorage.getItem('selectedTheme');
+      if (savedTheme) {
+        stylesheet.setAttribute('href', savedTheme);
+        selector.value = savedTheme;
+      }
+
+      selector.addEventListener('change', function () {
+        const selected = this.value;
+        stylesheet.setAttribute('href', selected);
+        localStorage.setItem('selectedTheme', selected);
+      });
+    });
+  </script>
+  
   <script>
     fetch('comandi.json')
       .then(response => response.json())
@@ -57,5 +87,20 @@
         console.error(err);
       });
   </script>
+
+  <script>
+  const selector = document.getElementById('themeSelector');
+  const stylesheet = document.getElementById('themeStylesheet');
+
+  selector.addEventListener('change', function () {
+    stylesheet.setAttribute('href', this.value);
+  });
+
+  // Imposta il tema iniziale
+  document.body.classList.add('style');
+</script>
+
+
+
 </body>
 </html>
