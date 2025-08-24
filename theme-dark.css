@@ -34,5 +34,8 @@ h1 {
 
 /* Icona */
 .card img.icon {
+  opacity: 1 !important;
+  visibility: visible !important;
   border: 2px solid rgba(255,255,255,0.3);
+
 }
