@@ -2,7 +2,7 @@
 
         {"nome": "/hazbinQuote", 
         "descrizione": "Mostra una citazione casuale dei personaggi di Hazbin Hotel.",
-        "personaggi": ["Charlie", "Alastor", "Angel Dust", "Vaggie", "Adam", "Egg boiz", "Husk", "Lucifer", "Niffty", "Sir pentious", "Valentino","Vox"],
+        "personaggi": ["Charlie", "Alastor", "Angel Dust", "Vaggie", "Adam", "Egg boiz", "Husk", "Lucifer", "Niffty", "Sir pentious", "Valentino","Vox","Lute"],
         "img": "img/hazbin.png"        
         },
         {"nome": "/hazbinGif", 
@@ -65,3 +65,4 @@
         }
 
 ]
+
