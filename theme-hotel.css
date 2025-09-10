@@ -1,0 +1,53 @@
+/* Corpo */
+body {
+  background-color: #1e001e; /* viola scuro infernale */
+  color: #f8e1ff; /* rosa pallido */
+  font-family: 'Cinzel', serif; /* stile elegante e teatrale */
+}
+
+/* Titolo principale */
+h1 {
+  color: #ff0055; /* rosso vibrante */
+  text-shadow: 2px 2px 8px #000000, 0 0 15px #ff0055;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+/* Card stile Hazbin */
+.card {
+  background: linear-gradient(145deg, #2a002a, #3a003a);
+  border: 2px solid #ff0055;
+  box-shadow: 0 0 20px rgba(255, 0, 85, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  color: #f8e1ff;
+}
+
+/* Titolo della card */
+.card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff66aa;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+/* Descrizione */
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e0b3ff;
+}
+
+/* Lista */
+.card ul li {
+  font-size: 14px;
+  color: #d48cff;
+  margin-bottom: 6px;
+}
+
+/* Bonus: effetto hover */
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 30px rgba(255, 0, 85, 0.5);
+}

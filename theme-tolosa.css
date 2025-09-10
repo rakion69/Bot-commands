@@ -1,0 +1,27 @@
+body {
+  background-color: #f5f0e6;
+  color: #4b3f2f;
+  font-family: 'Merriweather', serif;
+}
+
+.card {
+  background-color: #d9d2c5;
+  border: 2px solid #a89c8e;
+  box-shadow: 0 4px 12px rgba(75, 63, 47, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.card h2 {
+  color: #6b5c4a;
+  font-size: 22px;
+}
+
+.card p {
+  color: #5c4f3e;
+  font-size: 15px;
+}
+
+.card ul li {
+  color: #7a6a58;
+}
