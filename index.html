@@ -7,16 +7,26 @@
   <link id="themeStylesheet" rel="stylesheet" href="style.css">
   <link rel="icon" href="img/icon.ico" type="image/x-icon">
   <title>Comandi Bot</title>
+  <style>
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+  }
+  #botStatus {
+    font-weight: bold;
+  }
+  </style>
 </head>
 <body>
     <header>
-      <div id="botStatus" class="status-indicator">Controllo stato...</div>
       <select id="themeSelector">
       <option value="style.css">Default 🌈</option>
       <option value="theme-dark.css">Dark Mode 🌙</option>
       <option value="theme-amoled.css">AMOLED Dark 🖤</option>
-
       </select>
+      <div id="botStatus" class="status-indicator">Controllo stato...</div>
     </header>
 
   <h1>Comandi del Bot</h1>
@@ -100,7 +110,7 @@
 </script>
 
 <script>
-  const apiKey = 'TUO_API_KEY'; // Inserisci qui la tua API Key
+  const apiKey = 'ur2877652-6bf7c45c6cb156f063e84dcf'; // Inserisci qui la tua API Key
 
   fetch('https://api.uptimerobot.com/v2/getMonitors', {
     method: 'POST',
