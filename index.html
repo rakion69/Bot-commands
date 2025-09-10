@@ -11,6 +11,7 @@
 <body>
     <header>
       <select id="themeSelector">
+      <div id="botStatus" class="status-indicator">Controllo stato...</div>
       <option value="style.css">Default 🌈</option>
       <option value="theme-dark.css">Dark Mode 🌙</option>
       <option value="theme-amoled.css">AMOLED Dark 🖤</option>
@@ -96,6 +97,34 @@
 
   // Imposta il tema iniziale
   document.body.classList.add('style');
+</script>
+
+<script>
+  const apiKey = 'TUO_API_KEY'; // Inserisci qui la tua API Key
+
+  fetch('https://api.uptimerobot.com/v2/getMonitors', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ api_key: apiKey, format: 'json' })
+  })
+  .then(response => response.json())
+  .then(data => {
+    const monitor = data.monitors[0]; // Se hai più monitor, filtra per nome o ID
+    const statusDiv = document.getElementById('botStatus');
+
+    if (monitor.status === 2) {
+      statusDiv.textContent = 'Bot ONLINE';
+      statusDiv.classList.add('online');
+    } else {
+      statusDiv.textContent = 'Bot OFFLINE';
+      statusDiv.classList.add('offline');
+    }
+  })
+  .catch(error => {
+    console.error('Errore nel recupero dello stato:', error);
+    const statusDiv = document.getElementById('botStatus');
+    statusDiv.textContent = 'Errore nel controllo';
+  });
 </script>
 
 
