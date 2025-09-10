@@ -34,10 +34,3 @@ h1 {
   font-size: 13px;
   color: #bbbbbb;
 }
-
-
-/* Icona */
-.card img.icon {
-
-  border: 2px solid rgba(255,255,255,0.3);
-}
