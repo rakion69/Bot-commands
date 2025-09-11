@@ -33,7 +33,7 @@ h1 {
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px 36px; /*verticale e orizzontale*/
+  gap: 24px 32px; /*verticale e orizzontale*/
   justify-items: center;
   padding: 20px;
 }
@@ -79,6 +79,7 @@ h1 {
   object-fit: cover;
   border: 2px solid rgba(255,255,255,0.5);
 }
+
 
 
 
