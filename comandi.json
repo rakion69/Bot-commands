@@ -5,6 +5,18 @@
         "personaggi": ["Charlie", "Alastor", "Angel Dust", "Vaggie", "Adam", "Egg boiz", "Husk", "Lucifer", "Niffty", "Sir pentious", "Valentino","Vox","Lute"],
         "img": "img/hazbin.png"        
         },
+        {"nome": "/hazbin + Nome Personaggio", 
+        "descrizione": "Mostra una foto del personaggio di Hazbin Hotel",
+        "personaggi": ["Alastor","Charlie","Vaggie","Angel Dust","Husk","Niffty","Sir Pentious","Lucifer",
+        "Adam","Carmilla","Velvette","Rosie","Emily","KeeKee","Vox","Frank","Cherri Bomb","Lilith","Valentino",
+        "Lute","Lucifero","Fat nuggets","Sera","Mimzy","Zestial","San Pietro","Baxter","Razzle","Dazzle","Razzle e Dazzle","Molly"],
+        "img": "img/hazbin.png"
+        },
+        {"nome": "/wikia + nome", 
+        "descrizione": "Mostra le informazioni di un personaggio",
+        "personaggi": ["Adamo", "Alastor", "Angel Dust", "Charlie", "Husk", "Lilith","Lucifer","Vaggie" ],
+        "img": "img/hazbin.png"
+        },
         {"nome": "/hazbinGif", 
         "descrizione": "Mostra una GIF di Hazbin Hotel",
         "personaggi": ["Casuale presa da Google"],
@@ -13,13 +25,6 @@
         {"nome": "/hazbinPh", 
         "descrizione": "Mostra una foto di Hazbin Hotel",
         "personaggi": ["Casuale presa da Google"],
-        "img": "img/hazbin.png"
-        },
-        {"nome": "/hazbin + Nome Personaggio", 
-        "descrizione": "Mostra una foto del personaggio di Hazbin Hotel",
-        "personaggi": ["Alastor","Charlie","Vaggie","Angel Dust","Husk","Niffty","Sir Pentious","Lucifer",
-        "Adam","Carmilla","Velvette","Rosie","Emily","KeeKee","Vox","Frank","Cherri Bomb","Lilith","Valentino",
-        "Lute","Lucifero","Fat nuggets","Sera","Mimzy","Zestial","San Pietro","Baxter","Razzle","Dazzle","Razzle e Dazzle","Molly"],
         "img": "img/hazbin.png"
         },
         {"nome": "/paperella", 
@@ -36,11 +41,6 @@
         "descrizione": "Mostra un quiz su Hazbin Hotel",
         "personaggi": ["Casuale"],
         "img": "img/hazbin.png"       
-        },
-        {"nome": "/wikia + nome", 
-        "descrizione": "Mostra le informazioni di un personaggio",
-        "personaggi": ["Adamo", "Alastor", "Angel Dust", "Charlie", "Husk", "Lilith","Lucifer","Vaggie" ],
-        "img": "img/hazbin.png"
         },
         {"nome": "/gemellaggio", 
         "descrizione": "Gemellaggio con il gruppo Telegram dedicato alla serie Arcane",
@@ -65,4 +65,5 @@
         }
 
 ]
+
 
